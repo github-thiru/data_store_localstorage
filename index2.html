@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my Food page</title>
+    <style>
+        /* body {
+    /* font-family: Verdana, sans-serif; */
+        /* font-size: 15px; */
+        /* line-height: 1.5; */
+
+        .nav div {
+            height: 4px;
+            background-color: black;
+            margin: 5px 0;
+            border-radius: 25px;
+            transition: 0.3s;
+        }
+
+        .nav {
+            width: 30px;
+            display: inline-block;
+            margin: 1em 0 0 1em;
+        }
+
+        .one {
+            width: 30px;
+        }
+
+        .two {
+            width: 25px;
+        }
+
+        .three {
+            width: 28px;
+        }
+
+        .nav:hover div {
+            width: 30px;
+        }
+
+        .contain {
+            display: flex;
+            justify-content: space-between;
+            /* position: fixed; */
+        }
+
+        .card-content {
+            text-align: center;
+        }
+
+        h5 {
+            font-size: 18px;
+            line-height: 1.5;
+            width: 100%;
+            margin: 10px 0 0 0;
+            font-family: verdana, sans-serif;
+            font-weight: normal;
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 1.5;
+            /* padding-left: 10px; */
+            margin-top: 10px;
+            font-family: verdana, sans-serif;
+            font-size: 15px;
+        }
+
+        /* .cards{
+  box-shadow: 50px 50px rgb(0, 255, 26) ;
+}
+ */
+        .row-4 {
+            margin: 50px 70px 0px 70px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .number a {
+            display: inline-block;
+            background-color: rgb(247, 246, 246);
+            margin: 0px;
+            width: 0px;
+            padding: 8px 16px 8px 16px;
+            text-align: center;
+            border: none;
+            outline: 0;
+        }
+
+        .number a:hover {
+            background-color: black;
+            color: white;
+            transition: 0.2s;
+        }
+
+        .row-4 {
+            flex-wrap: wrap;
+        }
+
+        .numbers {
+            margin: 30px 0px;
+        }
+
+        .hr {
+            margin: 60px 0px 60px 0px;
+            opacity: 0.5;
+            border-top: 1px solid #eee;
+            flex-wrap: wrap;
+        }
+
+        .content {
+            text-align: center;
+            font-family: verdana, sans-serif;
+            font-size: 50px;
+            font-weight: 400px;
+        }
+
+        .footer {
+            flex-wrap: wrap;
+        }
+
+        h6 {
+            margin: 0px;
+            font-size: 20px;
+            font-family: verdana, sans-serif;
+            font-weight: lighter;
+        }
+
+        p span {
+            /* box-sizing: border-box; */
+            border: 1px solid;
+            background-color: gray;
+            color: #eee;
+            font-family: verdana, sans-serif;
+        }
+
+        span:hover {
+            background-color: black;
+            color: #eee;
+            transition: 0.5;
+            cursor: pointer;
+
+        }
+
+        .popular {
+            margin-top: 20px;
+        }
+
+        .add:hover {
+            background-color: bisque;
+            transition: 0.5;
+        }
+
+        .foot {
+            margin: 30px 120px 0px 120px;
+            display: flex;
+            margin: 0px 20px 0px 20px;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" style="margin:30px 90px 0px 90px ;">
+        <div class="contain" style="margin-left:40px ;">
+            <a href="#" class="nav">
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="three"></div>
+            </a>
+            <div class="myfood" style="margin:20px 0px 0px 60px ; padding-left: 0px; font-size:30px;">MyFood</div>
+            <div class="mail" style="margin-top:20px ; margin-left: 20px; margin-right: 30px; font-size:30px;">Mail
+            </div>
+        </div>
+    </div>
+
+    <!-- cards  -->
+    <div class="row-4">
+        <div class="cards">
+            <div class="card" style="width:250px; text-align: center;">
+                <img src="./sandwich.jpg" alt="" width="100%" height="400px">
+            </div>
+            <div class="card content" style="width:250px ; text-align: center; ">
+                <h5>The Perfect Sandwich, A Real NYC Classic</h5>
+                <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="card" style="width:250px; text-align: center;">
+                <img src="./steak.jpg" alt="" width="100%" height="400px">
+            </div>
+            <div class="card content" style="width:250px ; text-align: center; ">
+                <h5>Let Me Tell You About This Steak</h5>
+                <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.
+                </p>
+            </div>
+        </div>
+        <!-- 1st four cards -->
+
+        <div class="cards">
+            <div class="card" style="width:250px; text-align: center;">
+                <img src="./cherries.jpg" alt="" width="100%" height="400px">
+            </div>
+            <div class="card content" style="width:250px ; text-align: center; ">
+                <h5>Cherries, interrupted</h5>
+                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                <p>what else</p>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="card" style="width:250px; text-align: center;">
+                <img src="./wine.jpg" alt="" width="100%" height="400px">
+            </div>
+            <div class="card content" style="width:250px ; text-align: center; ">
+                <h5>Once Again, Robust Wine and Vegetable Pasta</h5>
+                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+
+            </div>
+        </div>
+    </div>
+    <!-- next4 cards -->
+
+    <div class="row-4">
+        <div class="cards">
+            <div class="card" style="width:250px; text-align: center;">
+                <img src="./popsicle.jpg" alt="" width="100%" height="400px">
+            </div>
+            <div class="card content" style="width:250px ; text-align: center; ">
+                <h5>All I Need Is a Popsicle</h5>
+                <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="card" style="width:250px; text-align: center;">
+                <img src="./salmon.jpg" alt="" width="100%" height="400px">
+            </div>
+            <div class="card content" style="width:250px ; text-align: center; ">
+                <h5>Salmon For Your Skin</h5>
+                <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="cards">
+            <div class="card" style="width:250px; text-align: center;">
+                <img src="./sandwich (1).jpg" alt="" width="100%" height="400px">
+            </div>
+            <div class="card content" style="width:250px ; text-align: center; ">
+                <h5>The Perfect Sandwich, A Real Classic</h5>
+                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                <p>what else</p>
+            </div>
+        </div>
+
+        <div class="cards">
+            <div class="card" style="width:250px; text-align: center;">
+                <img src="./croissant.jpg" alt="" width="100%" height="400px">
+            </div>
+            <div class="card content" style="width:250px ; text-align: center; ">
+                <h5>Le French</h5>
+                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- num-bar -->
+    <div class="numbers">
+        <div class="number" style=" background-color: #f1eded00; width:100%; text-align: center;">
+            <a href="#" style="background-color: black; color: white;  ">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+        </div>
+    </div>
+
+    <!-- Horizantal line -->
+
+    <div class="hr">
+        <hr>
+    </div>
+
+    <div class="content" style="margin:30px 120px 0px 120px ; flex-wrap: wrap;">
+        <h5 style="font-size:30px;"> About Me, The Food Man</h5>
+        <br>
+        <div class="img" style="flex-wrap: wrap;">
+            <img src="./chef.jpg" alt="" width="100%" height="auto">
+
+        </div>
+        <br>
+        <h5 style="font-size: 20px;">I am Who I Am!</h5>
+
+        <p style="font-style: italic; font-size: 18px; font-weight: lighter;">With Passion For Real, Good Food</p>
+
+        <p style="padding:0px 20px">ust me, myself and I, exploring the universe of unknownment. I have a heart of love
+            and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent
+            tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida
+            diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus
+            vitae, ultricies congue gravida diam non fringilla.</p>
+    </div>
+
+    <!-- Horizantal -->
+    <div class="hr">
+        <hr>
+    </div>
+
+    <!-- footer -->
+    <div class="foot" style="margin: 30px 120px 0px 120px; display: flex; justify-content: space-between;">
+        <div class="footer" style="margin:0px 20px 0px 20px ; height:100%; ">
+            <h4 style="font-size: 25px;">FOOTER</h4>
+            <p style="width: 300px;">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla
+            </p>
+            <p style="width: 300px;">Poweredby <a href="https://thiruthorlikonda.blogspot.com/"
+                    target="thiru"><q>Thiru</q></a></p>
+            <br>
+
+        </div>
+        <!-- blogpost -->
+        <div class="Blog" style="margin:0px 20px 0px 20px ; height: 100%;">
+            <h4 style="font-size: 25px; margin-bottom: 20px;">BLOG POSTS</h4>
+            <div class="add" style="display: flex; ">
+                <img src="./gondol.jpg" style="width:50px; height: 75px;">
+                <div style="margin:5px 0px 0px 0px;">
+                    <h6>Thiru</h6><br>
+                    <h6 style="margin:0px;">workshop</h6>
+                </div>
+            </div>
+            <hr style="margin: 10px 0px;">
+            <div class="add" style=" display: flex;">
+                <img src="./workshop.jpg" style="width:50px; height: 75px;">
+                <div style="margin:5px 0px 0px 5px ;">
+                    <h6>Thiru</h6><br>
+                    <h6 style="margin-bottom: 10px;">mamuluga undadu </h6>
+                </div>
+            </div>
+        </div>
+
+        <!-- popular tag -->
+        <div class="popular" style="margin:0px 20px 0px 20px; ">
+            <h4 style="margin: 20px 0px; font-size:25px ;">POPULAR TAGS</h4>
+            <p style="width: 300px;"><span style="background-color: black;">Travel</span>
+                <span>INDIA</span>
+                <span>DINNER</span>
+                <span>SALMON</span>
+                <span>FRANCE</span>
+                <span>IDEAS</span>
+                <span>FLAVOUR</span>
+                <span>CHICKEN</span>
+                <span>FISH</span>
+                <span>MATTON</span>
+
+            </p>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
